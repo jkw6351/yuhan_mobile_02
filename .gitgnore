@@ -1,0 +1,43 @@
+#test - > 이 줄은 무시
+#파일명은 상솬없고, 확장자가 rexr면 관리 x
+*.test
+
+# History files
+.Rhistory
+.Rapp.history
+
+#Session Data files
+.RDate
+
+# User - specific files
+.Ruserdata
+
+# Example code in package build process
+*~Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# Rstudio files
+.Rproj.User/
+
+# produced vignettes
+vignettes/*.html
+vignettes*.pdf
+
+#QAuth2 token, see htpps://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+#Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
